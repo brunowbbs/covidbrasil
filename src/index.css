@@ -20,13 +20,14 @@
 
 .information-left{
   flex: 1;
+  
 }
 
 .information-left .container-info{
-  /* background: red; */
   flex-direction: column;
   display: flex;
   justify-content: center;
+  
 
 }
 
@@ -36,30 +37,29 @@
   margin-right: 20px;
   border-radius: 10px;
   padding-bottom: 20;
+  margin-left: 20px;
 }
 
 .information-left .container-info h1{
   padding: 20px;
   height: auto;
 
-  font-size: 50px;
+  font-size: 3  0px;
 }
 
 .information-left .container-info .container-txt{
-  /* padding: 20px;
-  ba */
   padding: 20px;
-  /* background: royalblue; */
   height: auto;
 }
 
 
 .information-left .container-info .container-txt strong{
   margin-right: 10px;
-  font-size: 28px;
+  font-size: 22px;
+  
 }
 
 .information-left .container-info .container-txt span{
   margin-right: 10px;
-  font-size: 28px;
+  font-size: 22px;
 }
